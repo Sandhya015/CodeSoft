@@ -1,6 +1,6 @@
 
 # CodeSoft
 This repository contain 
-#portfolio
-#Landing page
-#calculator
+1.portfolio,
+2.Landing page,
+3.calculator
