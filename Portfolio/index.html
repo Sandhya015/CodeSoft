@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .about-section,
+    .resume-section,
+    .contact-section,
+    .projects-section {
+      background-color: #f4f4f4; 
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="nav__content">
+      <div class="logo"><a href="#">Sandhya Manjunath Naik</a></div>
+      <label for="check" class="checkbox">
+        <i class="ri-menu-line"></i>
+      </label>
+      <input type="checkbox" name="check" id="check" />
+      <ul>
+        <li><a href="https://www.linkedin.com/in/sandhya-naik-b4189a279?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BXOUEj4UoTrqOMS8PV27OQw%3D%3D">Linkedin</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#Resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <section class="section">
+    <div class="section__container">
+      <div class="content">
+        <p class="subtitle">HELLO</p>
+        <h1 class="title">
+          I'm <span>Sandhya<br />a</span> Web Developer
+        </h1>
+        <p class="description">
+          Hello!<br>
+          I am Sandhya, an enthusiastic web developer dedicated to continual learning and growth in the ever-evolving field of technology. With a proven track record as a fast learner, I specialize in programming languages such as C, Java, HTML, CSS, and JavaScript. Additionally, I possess expertise in backend languages like Python and PHP. Committed to embracing new technologies, I am eager to collaborate with industries to contribute to innovative projects. Explore my portfolio to witness my passion and proficiency in web development.
+        </p>
+        <div class="action__btns">
+          <button class="hire__me">Know more</button>
+          <!-- <button class="portfolio">Portfolio</button> -->
+        </div>
+      </div>
+      <div class="image">
+        <img src="assets/s2.jpeg" alt="profile" />
+      </div>
+    </div>
+  </section>
+  <!-- About Section -->
+  <section id="about" class="about-section">
+    <div class="section__container">
+      <div class="content">
+        <h2>About Me</h2>
+        <p>
+        I'm Sandhya, an engineering student with a knack for web development, C, and Java programming. With a strong foundation in HTML, CSS, JavaScript, and frameworks like React and Angular, I craft visually appealing and responsive websites. Simultaneously, my expertise in Node.js, SQL, and NoSQL databases enables me to build robust backend systems. Proficient in C and Java, I've developed various software applications, ranging from system software to desktop applications. Currently pursuing my degree, I'm enthusiastic about exploring new technologies and contributing innovative solutions to the tech industry. Let's connect and explore potential collaborations!
+        </p>
+      </div>
+    </div>
+  </section>
+  <!-- Skills Section -->
+  <section id="skills" class="skills-section">
+    <div class="section__container">
+      <div class="content">
+        <h2>Skills</h2>
+        <p>
+          Experienced and versatile web developer with a solid foundation in HTML, CSS, and JavaScript, adept at utilizing various frameworks to deliver dynamic and responsive web solutions. Proficient in backend development with languages such as Python and PHP, with additional experience in C and Java. Demonstrated ability to lead projects, recently delivering successful projects leveraging Python and Java. Passionate about problem-solving, evidenced by active participation and achievements on platforms like LeetCode and Codechef.
+          <li><a href="https://github.com/Sandhya015"> GitHub</a></li>
+          <li><a href="https://leetcode.com/u/ssaannddhhyya/">LeetCode</a></li>
+        <li><a href="https://www.codechef.com/users/sandhya51">Codechef</a></li>
+        </p>
+        
+      </div>
+    </div>
+  </section>
+  <!-- Projects Section -->
+  <section id="projects" class="projects-section">
+    <div class="section__container">
+      <div class="content">
+        <h2>Projects</h2>
+        <p>
+          Showcase your projects here with details and links.
+        </p>
+        
+        <div class="button-container">
+          <button class="project-btn" onclick="toggleDropdown('project1')">Project 1</button>
+          <button class="project-btn" onclick="toggleDropdown('project2')">Project 2</button>
+          <button class="project-btn" onclick="toggleDropdown('project3')">Project 3</button>
+          <button class="project-btn" onclick="toggleDropdown('project4')">Project 4</button>
+        </div>
+        
+        <div id="project1" class="project-dropdown">
+          <h3>Agriwebhub</h3>
+          <p>This the website developed by Using Html Css and Js and the backend is done by using php and mysql
+            This is mainly developed to help the farmer where through this website they can avoid the middle man getting profit and 
+            the Farmer and Buyer can Contact diectly and Farmer can sell their product for the online price.
+          </p>
+          
+          
+        </div>
+        <div id="project2" class="project-dropdown">
+          <h3>MODERN AGRICULTURE</h3>
+          <p>This project is developed by using IoT controlling the water pump through phone calls so the farmer can save time and also save water.</p>
+          
+         
+      </div>
+      
+          
+        </div>
+        <div id="project3" class="project-dropdown">
+          <h3>Saline Bottle Monitoring</h3>
+          <p>This Project is designed by using iot and the main aim of this is to alert the nurses in the hospital when the saline level goes below the certain level so that they can treat the patients quickely.</p>
+         
+         
+        </div>
+        <div id="project4" class="project-dropdown">
+          <h3>Some of the Websites that i have developed</h3>
+          <p>Python based quiz App,Project by using Php and also some of the websites developed by Html and css and js</p>
+          <p>You can Check it in my GitHub account</p>
+          <li><a href="https://github.com/Sandhya015"> GitHub</a></li>
+
+         
+          
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+  <!-- Resume Section -->
+  <section id="Resume" class="Resume-section">
+    <div class="section__container">
+      <div class="content">
+        <h2>Resume</h2>
+        <p>
+          Hello,Myself Sandhya Manjunath Naik,This my resume section You can go through my Skills
+          <li><a href="https://www.canva.com/design/DAF4wMyGxG0/oUrhsdf13TFE-0QtiTL13Q/view?utm_content=DAF4wMyGxG0&utm_campaign=designshare&utm_medium=link&utm_source=editor">My Resume</a></li>
+          <li><a href="resume.html">Resume</a></li>
+      </p>
+      </div>
+    </div>
+  </section>
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <div class="section__container">
+      <div class="content">
+        <h2>Contact Me</h2>
+        <p>
+          Feel free to reach out to me for any inquiries or collaboration
+          opportunities. You can contact me via email or through my LinkedIn
+          profile.
+        </p>
+       <p> Contact Number:8431556194</p>
+        <p>Email: sandhyanaik3249@gmail.com</p>
+        <li><a href="https://www.linkedin.com/in/sandhya-naik-b4189a279?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BXOUEj4UoTrqOMS8PV27OQw%3D%3D">Linkedin</a></li>
+
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="footer">
+      <div class="row2">
+        <p>&copy; Sandhya Naik all rights preserved</p>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
