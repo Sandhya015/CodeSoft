@@ -445,11 +445,10 @@ footer .attribution a{
 
 @media (max-width: 991px){
     .header{
-        background: url(images/bg-pattern-intro.svg);
         background-position: center;
         background-size: 400%;
         padding: 4rem 1.5rem;
-        background-color: hsl(353, 100%, 62%);
+        background: hsl(282, 90%, 35%);
     }
 
     .header .navigation{
